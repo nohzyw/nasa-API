@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel NASA APOD</title>
+    <!-- Vinculando o CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Carrossel Espacial NASA (APOD)</h1>
+    
+    <div class="busca">
+        <input type="text" id="inputAstro" placeholder="ex: nebula, galaxy, moon, sun, comet">
+        <button id="btnBuscar">Buscar</button>
+    </div>
+    
+    <p id="statusMessage">Digite um termo em inglês e clique em Buscar.</p>
+    
+    <div id="carouselContainer">
+        <div id="carouselTrack"></div>
+        <button class="nav-btn" id="btnAnterior">❮</button>
+        <button class="nav-btn" id="btnProximo">❯</button>
+    </div>
+
+    <!-- Vinculando o JS externo -->
+    <script src="script.js"></script>
+</body>
+</html>
