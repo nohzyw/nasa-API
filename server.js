@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.json());
-// Esta linha diz ao Express para servir automaticamente arquivos da pasta "public" (como index.html)
+
 app.use(express.static('public'));
 
 app.use((req, res, next) => {
